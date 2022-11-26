@@ -1,0 +1,62 @@
+.main{
+  background-color: beige;
+}
+.container {
+  height: 500px;
+  width: 400px;
+  border-radius: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(235, 218, 245);
+  box-shadow: 10px 10px 5px plum;
+  }
+  .container:hover{
+    box-shadow: 12px 12px 5px plum;
+  }
+form {
+    margin: 50px 25px 25px 50px;
+  }
+label {
+    color: black;  
+    font-size: 24px;
+    font-family: "cursive";
+  } 
+input {
+    height: 35px;
+    width: 290px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 17px;
+  }
+#message {
+  color: red;
+  font-size: 15px;
+  font-family: "cursive";
+}
+.purple {
+  outline: none;
+  border: 2px solid purple;
+}
+.red:focus,
+.red {
+  outline: none;
+  border: 2px solid red;
+}
+.orange:focus,
+.orange {
+  outline: none;
+  border: 2px solid orange;
+}
+.lightgreen:focus,
+.lightgreen {
+  outline: none;
+  border: 2px solid lightgreen;
+}
+.green:focus,
+.green {
+  outline: none;
+  border: 2px solid green;
+}
+
